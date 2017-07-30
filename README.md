@@ -21,19 +21,24 @@
 6. 切换播放模式
 7. 歌词跟随播放进度显示
 
+# 在线演示地址：
+  https://tanrenjie.github.io/vue-music-webapp
+  PC端建议使用chrome手机调试工具查看，移动端推荐使用最新版谷歌浏览器或微信自带浏览器
+  PS：
+    因Gitpage只能上传静态网站，因此没有歌词（项目中用的nodejs获取歌词数据），
+    API失效/BUG 请发邮件联系。
+
 ## Build Setup
 
 ``` bash
-# install dependencies
+# 安装项目依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 启动项目，在浏览器输入localhost:8080访问
 npm run dev
 
-# build for production with minification
+# 打包项目
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
